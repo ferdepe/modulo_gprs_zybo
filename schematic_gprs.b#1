@@ -3134,17 +3134,17 @@ design rules under a new name.</description>
 <element name="Q2" library="SparkFun-DiscreteSemi" package="TO-92" value="MOSFET-NCHANNEL2N7000" x="59.74" y="34.08" rot="R180"/>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="MOSFET-NCHANNEL2N7000" x="60.25" y="12.42"/>
 <element name="R9" library="resistor" package="0207/7" value="100k" x="7.704" y="47.392" rot="R270"/>
-<element name="R3" library="resistor" package="0207/7" value="40" x="32.23" y="53.7"/>
-<element name="R12" library="resistor" package="0207/7" value="30" x="62.19" y="25.76" rot="R270"/>
+<element name="R3" library="resistor" package="0207/7" value="180" x="32.23" y="53.7"/>
+<element name="R12" library="resistor" package="0207/7" value="180" x="62.19" y="25.76" rot="R270"/>
 <element name="R7" library="resistor" package="0207/7" value="100k" x="59.01" y="25.78" rot="R90"/>
 <element name="R8" library="resistor" package="0207/7" value="1k" x="10.934" y="47.392" rot="R90"/>
 <element name="R6" library="resistor" package="0207/7" value="15k" x="27.67" y="35.592" rot="R270"/>
 <element name="R10" library="resistor" package="0207/7" value="2.7k" x="24.48" y="44.998" rot="R90"/>
 <element name="R5" library="resistor" package="0207/7" value="2.7k" x="24.36" y="35.606" rot="R270"/>
 <element name="R11" library="resistor" package="0207/7" value="15k" x="27.67" y="44.998" rot="R270"/>
-<element name="R1" library="resistor" package="0207/7" value="40" x="22.26" y="53.65"/>
+<element name="R1" library="resistor" package="0207/7" value="82" x="22.26" y="53.65"/>
 <element name="R2" library="resistor" package="0207/7" value="100k" x="57.82" y="5.956" rot="R90"/>
-<element name="R4" library="resistor" package="0207/7" value="30" x="60.94" y="5.982" rot="R270"/>
+<element name="R4" library="resistor" package="0207/7" value="180" x="60.94" y="5.982" rot="R270"/>
 <element name="SIM1" library="con-molex-simcard" package="47388-2001" value="47388-2001" x="24.15" y="30.26" rot="MR270"/>
 <element name="X1" library="con-coax" package="LTI-SASF54GT" value="LTI-SASF54GT" x="60.77" y="45.07">
 <attribute name="OC_NEWARK" value="unknown" x="60.77" y="45.07" size="1.778" layer="27" display="off"/>
@@ -3162,8 +3162,8 @@ design rules under a new name.</description>
 <element name="C3" library="resistor" package="E3,5-8" value="470uF" x="45.73" y="55.77" rot="R90"/>
 <element name="J1" library="jumper" package="04C" value="Jumper Alimentaciones" x="4.53" y="51.43" rot="R270"/>
 <element name="L_FERRITE_BEAD1" library="sym" package="0207/7" value="" x="38.31" y="57.08" rot="R90"/>
-<element name="R13" library="resistor" package="0207/7" value="47" x="29.88" y="2.44" rot="R180"/>
-<element name="C4" library="resistor" package="E2-5" value="" x="27.45" y="10.09" rot="R180"/>
+<element name="R13" library="resistor" package="0207/7" value="68" x="29.88" y="2.44" rot="R180"/>
+<element name="C4" library="resistor" package="E2-5" value="10u" x="27.45" y="10.09" rot="R180"/>
 <element name="R14" library="resistor" package="0207/7" value="390" x="29.97" y="5.33"/>
 <element name="C5" library="resistor" package="C050-025X075" value="19n" x="44.54" y="19.82" rot="R270"/>
 <element name="C6" library="resistor" package="E1,8-4" value="10u" x="48.46" y="21.28" rot="R270"/>

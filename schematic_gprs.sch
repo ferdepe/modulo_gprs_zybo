@@ -21894,7 +21894,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R8" library="resistor" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="T1"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="0207/7" value="180"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="0207/7" value="82"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="0207/7" value="180"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="T1"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
@@ -21912,8 +21912,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="SUPPLY4" library="supply2" deviceset="VCC" device=""/>
 <part name="J1" library="jumper" deviceset="J2" device="X2MM" value="Jumper Alimentaciones"/>
 <part name="L_FERRITE_BEAD1" library="sym" deviceset="FERRITEBEAD2" device=""/>
-<part name="R13" library="resistor" deviceset="R-US_" device="0207/7" value="47"/>
-<part name="C4" library="resistor" deviceset="CPOL-EU" device="E2-5"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="0207/7" value="68"/>
+<part name="C4" library="resistor" deviceset="CPOL-EU" device="E2-5" value="10u"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="0207/7" value="390"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
