@@ -398,8 +398,8 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/seeed/Seeed-OPL-sensor.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 1919 1016"
-State=1
+Loc="0 0 1915 1007"
+State=2
 Number=0
 
 [Desktop]

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -150,13 +150,13 @@
 <packages>
 <package name="GL865-QUAD">
 <description>Telit GL865-QUAD of Telit. Big square reprensents an area where any component must not be placed.</description>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.127" layer="20" curve="-90"/>
-<wire x1="0.75" y1="0" x2="23.65" y2="0" width="0.127" layer="20"/>
-<wire x1="0" y1="0.75" x2="0" y2="24.4" width="0.127" layer="20"/>
-<wire x1="23.65" y1="0" x2="24.4" y2="0.75" width="0.127" layer="20" curve="-90"/>
-<wire x1="24.4" y1="0.75" x2="24.4" y2="23.65" width="0.127" layer="20"/>
-<wire x1="23.65" y1="24.4" x2="0" y2="24.4" width="0.127" layer="20"/>
-<wire x1="23.65" y1="24.4" x2="24.4" y2="23.65" width="0.127" layer="20" curve="90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.75" y1="0" x2="23.65" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0.75" x2="0" y2="24.4" width="0.127" layer="21"/>
+<wire x1="23.65" y1="0" x2="24.4" y2="0.75" width="0.127" layer="21" curve="-90"/>
+<wire x1="24.4" y1="0.75" x2="24.4" y2="23.65" width="0.127" layer="21"/>
+<wire x1="23.65" y1="24.4" x2="0" y2="24.4" width="0.127" layer="21"/>
+<wire x1="23.65" y1="24.4" x2="24.4" y2="23.65" width="0.127" layer="21" curve="90"/>
 <smd name="P$1" x="2.2" y="12.2" dx="2" dy="2" layer="1" roundness="100"/>
 <smd name="P$2" x="22.2" y="12.2" dx="2" dy="2" layer="1" roundness="100"/>
 <smd name="P$3" x="12.2" y="22.2" dx="2" dy="2" layer="1" roundness="100"/>
@@ -1557,12 +1557,7 @@ grid 1.8 mm, diameter 4 mm</description>
 <library name="con-molex-simcard">
 <packages>
 <package name="47388-2001">
-<wire x1="0" y1="0" x2="26.67" y2="0" width="0.127" layer="20"/>
-<wire x1="26.67" y1="0" x2="26.67" y2="18.7" width="0.127" layer="20"/>
-<wire x1="26.67" y1="18.7" x2="0" y2="18.7" width="0.127" layer="20"/>
-<wire x1="0" y1="18.7" x2="0" y2="0" width="0.127" layer="20"/>
 <smd name="GND2" x="5.69" y="0.725" dx="1.95" dy="1.45" layer="1"/>
-<smd name="GND1" x="5.69" y="17.975" dx="1.95" dy="1.45" layer="1"/>
 <smd name="C1" x="1.36" y="4.705" dx="2.2" dy="2.8" layer="1"/>
 <smd name="C3" x="1.36" y="11.185" dx="2.2" dy="2.8" layer="1"/>
 <smd name="C7" x="18.16" y="11.185" dx="2.2" dy="2.8" layer="1"/>
@@ -1573,6 +1568,11 @@ grid 1.8 mm, diameter 4 mm</description>
 <text x="0" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <text x="5.08" y="7.62" size="1.27" layer="21">MOLEX
 47388-2001</text>
+<smd name="GND1" x="5.69" y="17.885" dx="1.95" dy="1.45" layer="1"/>
+<wire x1="-0.05" y1="-0.05" x2="26.67" y2="-0.05" width="0.127" layer="49"/>
+<wire x1="26.67" y1="-0.05" x2="26.67" y2="18.7" width="0.127" layer="49"/>
+<wire x1="26.67" y1="18.7" x2="-0.05" y2="18.7" width="0.127" layer="49"/>
+<wire x1="-0.05" y1="18.7" x2="-0.05" y2="-0.05" width="0.127" layer="49"/>
 </package>
 </packages>
 </library>
@@ -3523,7 +3523,7 @@ design rules under a new name.</description>
 <wire x1="45.73" y1="53.992" x2="54.57" y2="53.992" width="1.27" layer="1"/>
 <wire x1="54.57" y1="53.992" x2="60.698" y2="53.992" width="1.27" layer="1"/>
 <wire x1="60.698" y1="53.992" x2="61.5" y2="53.19" width="1.27" layer="1"/>
-<wire x1="52.79" y1="49.16" x2="52.79" y2="52.212" width="1.016" layer="1"/>
+<wire x1="52.79" y1="49.16" x2="52.79" y2="52.212" width="1.27" layer="1"/>
 <wire x1="52.79" y1="52.212" x2="54.57" y2="53.992" width="1.27" layer="1"/>
 <wire x1="51.29" y1="49.16" x2="51.29" y2="50.712" width="1.27" layer="1"/>
 <wire x1="51.29" y1="50.712" x2="54.57" y2="53.992" width="1.27" layer="1"/>

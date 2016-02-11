@@ -22378,18 +22378,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="332.74" y="60.96"/>
 </segment>
 </net>
-<net name="ALARM" class="0">
-<segment>
-<pinref part="GSM/GPRS1" gate="G$1" pin="GPIO_06/ALARM"/>
-<wire x1="177.8" y1="195.58" x2="200.66" y2="195.58" width="0.1524" layer="91"/>
-<label x="200.66" y="195.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="127" y="233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SV1" gate="1" pin="10"/>
-<wire x1="127" y1="233.68" x2="132.08" y2="233.68" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="STAT_LED" class="0">
 <segment>
 <pinref part="GSM/GPRS1" gate="G$1" pin="GPIO_08/STAT_LED"/>
